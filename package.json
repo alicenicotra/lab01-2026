@@ -1,0 +1,23 @@
+{
+  "name": "dayjs",
+  "version": "1.0.0",
+  "description": "Primo Laboratorio",
+  "homepage": "https://github.com/alicenicotra/lab01-2026#readme",
+  "bugs": {
+    "url": "https://github.com/alicenicotra/lab01-2026/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alicenicotra/lab01-2026.git"
+  },
+  "license": "ISC",
+  "author": "Alice Nicotra",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.19"
+  }
+}
