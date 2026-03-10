@@ -1,11 +1,11 @@
 import dayjs from "dayjs";
 
-function Film (filmId, title, favorite=false, watchDate, rating, userId=1) {
+function Film (filmId, title, favorite=false, watchDate = null, rating = null, userId=1) {
     this.filmId = filmId;
     this.title = title;
     this.favorite = favorite;
-    this.watchDate = watchDate ? dayjs(watchDate) : null;
-    this.rating = (rating >= 1 && rating <=5) ? rating : null;
+    this.watchDate = watchDate && dayjs(watchDate);
+    this.rating = (rating >= 1 && rating <=5) && rating;
     this.userId = userId;
 
     this.toString = () => {
