@@ -1,0 +1,31 @@
+/* Regoliamo l'altezza della sidebar per coprire tutto lo schermo sotto la navbar */
+.sidebar {
+    background-color: #f4f4f4;
+    min-height: calc(100vh - 56px); 
+}
+
+/* Stile personalizzato per le stelle e le icone di azione */
+.star-color { 
+    color: #f0ad4e; 
+}
+
+.action-icon { 
+    color: #6c757d; 
+    cursor: pointer; 
+    margin-left: 10px; 
+}
+
+/* Bottone Aggiungi in basso a destra (Floating Action Button) */
+.btn-add {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
